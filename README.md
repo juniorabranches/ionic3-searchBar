@@ -1,5 +1,3 @@
-# Follow the virtual currency quotations using Braziliex's api
-
 ![View this](src/assets/searchGif.gif)
 
 # To run:
