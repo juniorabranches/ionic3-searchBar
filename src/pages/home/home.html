@@ -7,8 +7,14 @@
 </ion-header>
 
 <ion-content padding>
+  <ion-searchbar #searchbar placeholder="o que deseja?" [hidden]="!search" (ionInput)="searchAction($event)" [(ngModel)]="queryText"></ion-searchbar>  
   The world is your oyster.
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+  <ion-fab right bottom (click)="toggleSearch()">
+    <button ion-fab class="pop-in">
+      <ion-icon name="search"></ion-icon>
+    </button>
+  </ion-fab>
 </ion-content>
