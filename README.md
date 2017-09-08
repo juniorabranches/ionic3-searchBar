@@ -3,6 +3,3 @@
 # To run:
 * > npm install
 * > ionic serve -l (with live reload)
-
-
-
